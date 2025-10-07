@@ -1,0 +1,38 @@
+{
+  "physical": {
+    "name": "物理塔",
+    "cost": 100,
+    "range": 3,
+    "damage": 25,
+    "attack_speed": 1.0,
+    "element": "physical",
+    "effects": []
+  },
+  "magic": {
+    "name": "魔法塔",
+    "cost": 120,
+    "range": 3,
+    "damage": 20,
+    "attack_speed": 1.2,
+    "element": "arcane",
+    "effects": []
+  },
+  "aoe": {
+    "name": "范围塔",
+    "cost": 140,
+    "range": 2,
+    "damage": 15,
+    "attack_speed": 0.8,
+    "element": "fire",
+    "effects": ["splash"]
+  },
+  "slow": {
+    "name": "减速塔",
+    "cost": 150,
+    "range": 3,
+    "damage": 10,
+    "attack_speed": 1.0,
+    "element": "frost",
+    "effects": ["slow"]
+  }
+}
