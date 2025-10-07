@@ -1,0 +1,29 @@
+{
+  "grunt": {
+    "name": "步兵",
+    "health": 100,
+    "speed": 1.0,
+    "armor": 5,
+    "resistance": 2,
+    "bounty": 10,
+    "element": "earth"
+  },
+  "raider": {
+    "name": "袭击者",
+    "health": 150,
+    "speed": 1.2,
+    "armor": 3,
+    "resistance": 4,
+    "bounty": 15,
+    "element": "air"
+  },
+  "tank": {
+    "name": "重装",
+    "health": 250,
+    "speed": 0.7,
+    "armor": 10,
+    "resistance": 5,
+    "bounty": 20,
+    "element": "earth"
+  }
+}
