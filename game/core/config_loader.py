@@ -7,6 +7,7 @@ from typing import Any, Dict, Optional
 
 
 class DataManager:
+
     """数据驱动中心，负责加载与热更新 JSON 表。
 
     过去的实现假设当前工作目录永远位于项目根目录下，
@@ -57,6 +58,7 @@ class DataManager:
         full = self._full_path(relative)
         if not os.path.exists(full):
             raise FileNotFoundError(f"配置文件不存在: {full}")
+
         mtime = os.path.getmtime(full)
         if relative not in self.cache or self.mtimes.get(relative) != mtime:
             self.cache[relative] = self._load_json(full)
